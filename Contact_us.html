@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="Schoolbg.png" style="background-size: cover; background-repeat: no-repeat;">
+    <header>
+        <center>
+        <h1><big><i>Welcome to Oxford School</i></big></h1>
+        </center>
+        <nav>
+            <center>
+            <ul class="horizontal-menu">
+                <big>
+                <li style="display: inline;"><font size="5"><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li style="display: inline;"><font size="5"><a href="course.html">Courses</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li style="display: inline;"><font size="5"><a href="Contact_us.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li style="display: inline;"><font size="5"><a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                </big>
+            </ul>
+            <center>
+
+        </nav>
+    </header>
+    <section id="contact">
+        <center>
+        <h2>Contact Us</h2>
+        <center>
+        <p>Please fill out the form below, and we'll get in touch with you.</p>
+        
+        <form action="contact_process.php" method="post">
+            <font size="5">
+            <label for="name">Your Name :</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="address">Address :</label>
+            <input type="text" id="address" name="address" required><br>
+
+            <label for="phone">Phone Number :</label>
+            <input type="tel" id="phone" name="phone" required><br>
+
+            <label for="email">E-mail :</label>
+            <input type="email" id="email" name="email" required><br>
+     
+            <input type="submit" value="Submit" formaction="Thank_you.html">
+      
+            </font>
+            
+        </form>
+    </section>
+    <div style="position: absolute; top: 20px; right: 20px;">
+        <img src="Schoolicon.png" alt="School Icon" width="78" height="78">
+        <p style="font-size: 12px; margin-top: 5px;">Oxford School</p>
+    </div>
+
+    <section id="map">
+        <center>
+        <h2>Our Location</h2>
+        </center>
+        <!-- Embedding a Google Maps iframe -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-75.123456!3d40.987654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDA4JzQxLjYiTiA3NcKwMzUnMDIuMCJF!5e0!3m2!1sen!2sus!4v1558012345678!5m2!1sen!2sus" width="1250" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+    <!-- Other content for the page -->
+
+    <footer>
+        <div align="right" style="font-size: 15px;">
+            <p><font size="2"></font>&copy; 2023 Oxford School. All rights reserved.</p>
+        </div>
+        </footer>
+    
+</body>
+</html>
